@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*, html, body{
+			margin: 0;
+			padding: 0;
+		}
+		*, *::before, *::after{box-sizing: border-box;}
+
+			body{
+			font-family: 'Rubik', sans-serif;
+			font-weight: 600;
+		}
+
+		#header {
+  			width: 100%;
+  			height: 15vh;
+  			background: linear-gradient(to right, #344CB7, #5d805d, #FFEB00);
+  			display: flex;
+  			flex-direction: column;
+  			justify-content: center;
+  			align-items: center;
+  			text-align: center;
+}
+
+		.top-line {
+  			display: flex;
+  			gap: 10px;
+  			align-items: center;
+		}
+
+		#uaText, #slavaText, #heroesText {
+  			color: white;
+  			margin: 0;
+		}
+
+		#uaText, #heroesText {
+  			font-size: 1.5em;
+		}
+
+		#slavaText {
+  			font-size: 3em;
+ 			margin-left: 5px;
+		}
+		.grey{
+			width: 100%;
+			height: 30vh;
+			background-color: grey;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		.top-line2{
+			display: flex;
+			gap: 10px;
+			align-items: center;
+		}
+		.supportText{
+			font-size: 3em;
+			color: white;
+		}
+		.btn{
+			color: #344CB7;
+			padding: 15px;
+			border-radius: 10px;
+			background-color: #FFEB00;
+			border: none;
+		}
+		.mainDivBox{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.box{
+			margin-left: 3%;
+			margin-right: 3%;
+			width: 200px;
+			height: 170px;
+			border-radius: 10px;
+			padding: 1%;
+		}
+		.blueDiv{
+			background-color: #344CB7;
+		}
+	</style>
+	<title>Document</title>
+</head>
+<body>
+	<div id="header">
+  		<div class="top-line">
+    		<p id="uaText">UA</p>
+    		<p id="slavaText">Слава Україні!</p>
+  		</div>
+  		<div class="bottom-line">
+    		<p id="heroesText">Героям Слава</p>
+  		</div>
+	</div>
+
+	<div class="grey">
+		<div class="top_line2">
+			<p class="supportText">Підтримай ЗСУ - наша сила в єдності</p>
+		</div>
+		<div class="bottom_line2">
+			<button class="btn"><b>Задонатити</b></button>
+		</div>
+	</div>
+
+	<div class="mainDivBox">
+		<div class="blueDiv box">
+			<div class="top_line3">
+				<p class="textInDiv1">Незламність</p>
+			</div>
+			<div class="bottom-line3">
+    			<p id="textInBottomDiv1">Український дух - незламний у боротьбі за свободу</p>
+  			</div>
+		</div>
+		<div class="yellowDiv box">
+			<div class="top_line3">
+				<p class="textInDiv1">Єдність</p>
+			</div>
+			<div class="bottom-line3">
+    			<p id="textInBottomDiv1">Ми разом - нездоланні</p>
+  			</div>
+		</div>
+		<div class="gradDiv box">
+			<div class="top_line3">
+				<p class="textInDiv1">Тризуб</p>
+			</div>
+			<div class="bottom-line3">
+    			<p id="textInBottomDiv1">Символ волі, сили та незалежності</p>
+  			</div>
+		</div>
+	</div>
+</body>
+</html>
